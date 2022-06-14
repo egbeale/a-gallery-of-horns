@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# A Gallery of Horned Beasts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Author: Elizabeth Beale
 
-## Available Scripts
+## Lab 1
 
-In the project directory, you can run:
+> Estimated time: 2 hrs
 
-### `npm start`
+> Actual time: 1 hr 45 min
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Create React application using `npx create-react-app <repo-name>` as demonstrated in class. Create a new repo in GitHub and push to your newly created local repo.
 
-### `npm test`
+2. YouYour `App` component should render a `Header` (with `<h1>`), `Footer` (with author's name), and `Main` component, each of which is defined in their own files.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. The `Main` component needs to render at least two copies of a component called `HornedBeast`. Then, the `Main` component needs to pass `title`, `imageUrl`, and `description` into each `HornedBeast` component. 
 
-### `npm run build`
+4. The `HornedBeast` component needs to contain an `<h2>` that displays the title of the animal, an `<img>` element with `src`, `alt` and `title` attributes, and a `<p>` that displays the description.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Resources
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://reactjs.org/docs/getting-started.html)
+- [Netlify](https://www.netlify.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+--------
 
-### `npm run eject`
+## Lab 2
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Estimated time:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Actual time:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Display images so that user can browse photo collection. The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
 
-## Learn More
+2. Allow users to vote for their favorite beast.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Bootstrap. Bring in the `react-bootstrap` library and use it to style your application making sure that it is responsive to different screen sizes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Resources
 
-### Code Splitting
+- [React Bootstrap cards](https://react-bootstrap.github.io/components/cards/)
+- [JSON file](https://codefellows.github.io/code-301-guide/curriculum/class-02/lab/assets/data.json)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-------------------
 
-### Analyzing the Bundle Size
+## Lab 3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> Estimated time:
 
-### Making a Progressive Web App
+> Actual time:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+--------------
 
-### Advanced Configuration
+## Lab 4
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> Estimated time:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Actual time:
