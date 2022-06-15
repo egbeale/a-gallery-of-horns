@@ -1,0 +1,18 @@
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5vw;
+  font-weight: 900;
+  letter-spacing: 1.1vw;
+  color: rgb(205, 206, 182);
+  margin-bottom: 5vw;
+  text-shadow: -.5vw .5vw rgb(149, 144, 18),
+          -1vw 1vw rgb(107, 105, 45);
+}
+
+h2 {
+  font-size: 1.7vw;
+  letter-spacing: .3vw;
+}

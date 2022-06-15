@@ -1,0 +1,20 @@
+.cards {
+  background-color: rgb(235, 235, 222);
+  border: none;
+  margin: 1vw;
+  width: 17vw;
+  border-radius: 10%;
+}
+
+.likes {
+  text-align: right;
+  font-size: 1.5vw;
+}
+
+.titles {
+  text-align: center;
+}
+
+.card img {
+  /* border: 8px solid rgb(168, 179, 190); */
+}

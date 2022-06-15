@@ -33,11 +33,13 @@ Author: Elizabeth Beale
 
 ### Features
 
-1. Display images so that user can browse photo collection. The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
+1. Render unique Horned Beasts from JSON data
 
-2. Allow users to vote for their favorite beast.
+2. Display images of each Horned Beast.
 
-3. Bootstrap. Bring in the `react-bootstrap` library and use it to style your application making sure that it is responsive to different screen sizes.
+3. Use `state` in React to track votes for user's favorite Horned Beasts.
+
+4. Add Bootstrap. Bring in the `react-bootstrap` library and use it to style your application making sure that it is responsive to different screen sizes.
 
 ### Resources
 
