@@ -6,10 +6,11 @@ h1 {
   font-size: 5vw;
   font-weight: 900;
   letter-spacing: 1.1vw;
-  color: rgb(205, 206, 182);
+  color: rgb(239, 212, 206);
   margin-bottom: 5vw;
-  text-shadow: -.5vw .5vw rgb(149, 144, 18),
-          -1vw 1vw rgb(107, 105, 45);
+  text-shadow: -.5vw .5vw rgb(226, 145, 125),
+                -1vw 1vw rgb(221, 111, 87),
+                -1.5vw 1.5vw rgb(213, 84, 58);
 }
 
 h2 {
