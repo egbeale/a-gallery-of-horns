@@ -1,9 +1,8 @@
 .cards {
-  background-color: rgb(235, 235, 222);
+  background-color: rgb(200, 208, 211);
   border: none;
   margin: 1vw;
   width: 17vw;
-  border-radius: 10%;
 }
 
 .likes {
