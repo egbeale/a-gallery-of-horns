@@ -16,10 +16,13 @@ class HornedBeast extends React.Component {
     })
   }
 
+  handleModalClick = () => {
+    this.props.handleOnShowModal(this.props.imageUrl)
+  }
+
   render() {
     return(
       <Card 
-        // border='light' 
         className='cards'
       >
         <Card.Body>
@@ -29,7 +32,7 @@ class HornedBeast extends React.Component {
             src={this.props.imageUrl} 
             alt={this.props.description} 
             title={this.props.title} 
-            onClick={this.likePhoto}
+            onClick={this.handleModalClick}
             className='card-image'/>
           <Card.Text>{this.props.description}</Card.Text>
         </Card.Body>

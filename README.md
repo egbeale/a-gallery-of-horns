@@ -2,13 +2,12 @@
 
 Author: Elizabeth Beale
 
-## Lab 1
+## <center>Lab 1</center>
 
-> Estimated time: 2 hrs
+- Estimated time: 2 hrs
+- Actual time: 1 hr 45 min
 
-> Actual time: 1 hr 45 min
-
-### Features
+### Features: Lab 1
 
 1. Create React application using `npx create-react-app <repo-name>` as demonstrated in class. Create a new repo in GitHub and push to your newly created local repo.
 
@@ -25,13 +24,12 @@ Author: Elizabeth Beale
 
 --------
 
-## Lab 2
+## <center>Lab 2</center>
 
-> Estimated time:
+- Estimated time: 1.5 hrs
+- Actual time: 2.5 hrs
 
-> Actual time:
-
-### Features
+### Features: Lab 2
 
 1. Render unique Horned Beasts from JSON data
 
@@ -48,16 +46,32 @@ Author: Elizabeth Beale
 
 -------------------
 
-## Lab 3
+## <center>Lab 3</center>
 
-> Estimated time:
+- Estimated time: 4 hrs (including review)
+- Actual time:
 
-> Actual time:
+### Features: Lab 3
+
+- **Display a Modal.** Allow user to click on an image and view the details in a larger size.
+
+  - Import the `data.json` file into your `App` component and send that data into the `Main` component.
+  - Map over the JSON data in your `Main` component to render each beast.
+  - Send a function into your `Main` component that allows the user to update state in the `App`.
+  - Create a `SelectedBeast` component and include it in your `App`.
+  - Use the state in the `App` to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap.
+
+### Resources
+
+- [React Bootstrap](https://react-bootstrap.github.io/)
 
 --------------
 
-## Lab 4
+## <center>Lab 4</center>
 
-> Estimated time:
+- Estimated time:
+- Actual time:
 
-> Actual time:
+### Features: Lab 4
+
+### Resources
