@@ -9,19 +9,25 @@ class SelectedBeast extends React.Component {
     return (
       <>
         <Modal //className="img-responsive"
-          show={this.props.showModal} 
-          onHide={this.props.handleOnHide} 
+          // values that have to be on our modal component:
+          show={this.props.modalActive} // bringing the boolean from app.js
+          onHide={this.props.modalClose} //method to make modal close. but why not just use handleCloseModal?
         >
           <Modal.Header closeButton>
-            <Modal.Title>{this.props.title}</Modal.Title>
+            {this.props.selectedBeast.title}
+            {/* <Modal.Title>{this.props.title}</Modal.Title> */}
           </Modal.Header>
 
           <Modal.Body>
             <img 
-              src={this.props.image_url} 
-              alt={this.props.description}
+              src={this.props.selectedBeast.image_url}
+              alt={this.props.selectedBeast.description}
             />
+            {/* {this.props.selectedBeast.description} */}
           </Modal.Body>
+          <Modal.Footer>
+            <Button onClick={this.props.modalClose}></Button>
+          </Modal.Footer>
 
         </Modal>
       </>
