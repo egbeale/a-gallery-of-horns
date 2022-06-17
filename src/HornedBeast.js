@@ -16,15 +16,13 @@ class HornedBeast extends React.Component {
     })
   }
 
-  handleModalClick = () => {
-    this.props.handleOnShowModal(this.props.imageUrl)
-  }
+  // handleModalClick = () => {
+  //   this.props.handleOpenModal(this.props.imageUrl)
+  // }
 
   render() {
     return(
-      <Card 
-        className='cards'
-      >
+      <Card className='cards'>
         <Card.Body>
           <Card.Title className='titles'>{this.props.title}</Card.Title>
           <Card.Subtitle className='likes'>♡  {this.state.likes}</Card.Subtitle>
@@ -32,11 +30,14 @@ class HornedBeast extends React.Component {
             src={this.props.imageUrl} 
             alt={this.props.description} 
             title={this.props.title} 
-            onClick={this.handleModalClick}
+            // onClick: passing in anonymous callback function. when clicked, execute handleOpenModal, and pass in that whole beast. it'll pass it, say it's true, set that object to the selectedBeast. Then down in render of app.js, that selectedBeast object gets sent into SelectedBeast.js.
+            onClick={() => {this.props.handleOpenModal(this.props.beast)}}
+            // but what ab onClick={this.likePhoto}
             className='card-image'/>
           <Card.Text>{this.props.description}</Card.Text>
         </Card.Body>
       </Card>
+
     )
   }
 }
