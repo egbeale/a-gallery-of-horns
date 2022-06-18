@@ -3,10 +3,8 @@ import Header from './Header.js';
 import Footer from './Footer.js';
 import Main from './Main.js'
 import data from './data.json';
-// import Modal from 'react-bootstrap/Modal';
 import './App.css';
 import SelectedBeast from './SelectedBeast.js';
-// import 'bootstrap/dist/css/bootstrap.min.css'; // wtf is this
 
 class App extends React.Component {
   constructor(props) {
@@ -29,6 +27,7 @@ class App extends React.Component {
     this.setState( {
       modalActive: true,
       selectedBeast: beast,
+      //passing in real value as an object with properties. methods setState setting parameters 
       // title: title,
       // image_url: imageUrl
     });
@@ -42,7 +41,7 @@ class App extends React.Component {
         <Header/>
         <Main 
           data={data}
-          handleOpenModal={this.handleOnShowModal} // Going thru Main.js to send it to HB.js 
+          handleOpenModal={this.handleOpenModal} // Going thru Main.js to send it to HB.js 
         />
         <SelectedBeast // sending this into SelectedBeast 
           modalActive={this.state.modalActive}
@@ -50,7 +49,7 @@ class App extends React.Component {
           // title={this.state.title}
           // image_url={this.state.imageUrl}
           // description={this.state.description}
-          slectedBeast={this.selectedBeast}
+          selectedBeast={this.state.selectedBeast}
         />
         <Footer/>
       </>
