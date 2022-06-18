@@ -14,12 +14,13 @@ class Main extends React.Component {
         handleOpenModal={this.props.handleOpenModal}
         beast={beast} // object containing all the beasts. taking it to HB.js like this: this.props.beasts = {...}
       />
-  });
-  return (
-    <main>
-      {beasts}
-    </main>
-  )};
+    });
+    return (
+      <main>
+        {beasts}
+      </main>
+    )
+  };
 }
 
 export default Main;
