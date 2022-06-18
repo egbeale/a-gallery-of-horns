@@ -27,7 +27,8 @@ class App extends React.Component {
     this.setState( {
       modalActive: true,
       selectedBeast: beast,
-      //passing in real value as an object with properties. methods setState setting parameters 
+      //passing in real value as an object with properties. methods setState setting parameters.
+      // ?? why did the demo have this:
       // title: title,
       // image_url: imageUrl
     });

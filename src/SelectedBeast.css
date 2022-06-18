@@ -1,0 +1,19 @@
+.modal-header {
+  background-color: rgb(138, 148, 71);
+  color: white;
+}
+
+.modal-title {
+  font-size: 4vw;
+}
+
+.modal-content {
+  background-color: lightgray;
+  width: 530px;
+}
+
+.modal-img {
+  width: 500px;
+  /* margin-left: 2vw; */
+}
+

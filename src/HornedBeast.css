@@ -14,6 +14,7 @@
   text-align: center;
 }
 
-.card img {
-  /* border: 8px solid rgb(168, 179, 190); */
+.card-img {
+  cursor: pointer;
 }
+

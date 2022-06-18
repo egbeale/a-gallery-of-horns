@@ -49,7 +49,7 @@ Author: Elizabeth Beale
 ## <center>Lab 3</center>
 
 - Estimated time: 4 hrs (including review)
-- Actual time:
+- Actual time: ~5 hrs
 
 ### Features: Lab 3
 
