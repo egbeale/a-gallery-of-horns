@@ -49,7 +49,7 @@ Author: Elizabeth Beale
 ## <center>Lab 3</center>
 
 - Estimated time: 4 hrs (including review)
-- Actual time: ~5 hrs
+- Actual time: 4 hrs
 
 ### Features: Lab 3
 
@@ -69,9 +69,9 @@ Author: Elizabeth Beale
 
 ## <center>Lab 4</center>
 
-- Estimated time:
-- Actual time:
+- Estimated time: 4 hours
+- Actual time: 3 hours
 
 ### Features: Lab 4
 
-### Resources
+- Using the `Form` component of react-bootstrap, build a drop down menu so that the user can choose to filter by number of horns. 
