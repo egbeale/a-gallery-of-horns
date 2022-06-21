@@ -14,7 +14,7 @@ class App extends React.Component {
     this.state = {
       modalActive: false,
       selectedBeast: '',
-      // hornData: data,
+      hornData: data,
     };
   };
 
@@ -32,7 +32,6 @@ class App extends React.Component {
       //passing in real value as an object with properties. methods setState setting parameters.
     });
   };
-
 
   // ------------ FORM INPUT --------------
 
@@ -70,6 +69,7 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(this.state.hornData);
     return (
       <>
         <Header/>
