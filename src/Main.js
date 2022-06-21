@@ -5,7 +5,7 @@ import './Main.css';
 class Main extends React.Component {
   render() {
     // mapping over data. our beast data is an array of objects. when we call map on that array of data, we're assigning a parameter called beast, which is essentially one whole object 
-    let beasts = this.props.data.map((beast, idx) => {
+    let beasts = this.props.hornData.map((beast, idx) => {
       return <HornedBeast
         title={beast.title}
         description={beast.description}
@@ -17,7 +17,7 @@ class Main extends React.Component {
     });
     return (
       <main>
-        {beasts} 
+        {beasts}
       </main>
     )
   };
